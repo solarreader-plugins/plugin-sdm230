@@ -1,0 +1,147 @@
+[
+  {
+    "columns": [
+      {
+        "columnName": "Produkt",
+        "columnType": "STRING"
+      },
+      {
+        "columnName": "Modell",
+        "columnType": "STRING"
+      }
+    ],
+    "rows": [
+      {
+        "cells": [
+          {
+            "expression": "\"SDM230\""
+          },
+          {
+            "expression": "\"SDM230\""
+          }
+        ]
+      }
+    ],
+    "tableName": "Info"
+  },
+  {
+    "columns": [
+      {
+        "columnName": "Spannung",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Strom",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Leistung",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Scheinleistung",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Blindleistung",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Leistungsfaktor",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Phasenverschiebung",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Frequenz",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Einspeisung",
+        "columnType": "NUMBER"
+      }
+    ],
+    "rows": [
+      {
+        "cells": [
+          {
+            "expression": "AC_Spannung"
+          },
+          {
+            "expression": "AC_Strom"
+          },
+          {
+            "expression": "AC_Leistung"
+          },
+          {
+            "expression": "AC_Scheinleistung"
+          },
+          {
+            "expression": "AC_Blindleistung"
+          },
+          {
+            "expression": "PF_Leistung"
+          },
+          {
+            "expression": "AC_Phasenverschiebung"
+          },
+          {
+            "expression": "Frequenz"
+          },
+          {
+            "expression": "Bezug"
+          },
+          {
+            "expression": "Einspeisung"
+          }
+        ]
+      }
+    ],
+    "tableName": "AC"
+  },
+  {
+    "columns": [
+      {
+        "columnName": "Wh_GesamtBezug",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Wh_GesamtEinspeisung",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "GesamtLeistungsbedarf",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "WattstundenGesamt",
+        "columnType": "NUMBER"
+      }
+    ],
+    "rows": [
+      {
+        "cells": [
+          {
+            "expression": "Wh_Bezug"
+          },
+          {
+            "expression": "Wh_Einspeisung"
+          },
+          {
+            "expression": "GesamterLeistungsbedarf"
+          },
+          {
+            "expression": "WattstundenGesamt"
+          }
+        ]
+      }
+    ],
+    "tableName": "Summen"
+  }
+]
